@@ -120,7 +120,7 @@ submitBtn.addEventListener('click', () => {
            quiz.innerHTML = `
            <h2>Vastasit oikein ${score}/${quizData.length} kysymyksistä</h2>
 
-           <p><b>Oikeat vastaukset</b>:</p>
+           <p><b>Oikeat vastausvaihtoehdot</b>:</p>
 
            <p><b>1. d: Nergal</b> <br>
            Sekä Nero, Augustus että Titus ovat kaikki toimineet Rooman keisareina.</p>
