@@ -1,0 +1,130 @@
+/* Elina Rantaniemi
+Lähteenä käytetty coding with nick:
+https://codingwithnick.in/
+*/
+
+body {
+   background-color: orange;
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+   margin-top: 30px;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+
+#question {
+   color: rgb(233, 94, 94);
+   font-size: 1.5em;
+}
+
+a {
+  color: rgb(233, 94, 94);
+}
+
+a:hover{
+   color: orange;
+}
+
+/* Quiz image */
+
+.responsive {
+   margin-top: 30px;
+   width: 40%;
+   height: auto;
+}
+
+/* Quiz's styles */
+
+.quiz-container {
+   background-color: rgb(255, 255, 255);
+   width: 40%;
+}
+
+.quiz-header {
+   padding: 30px;
+}
+
+#sidebar {
+   background-color: rgb(255, 237, 214);
+}
+
+.quiz-img {
+   background-color: rgb(255, 255, 255);
+   width: 50%;
+   color:rgb(165, 165, 165)
+}
+
+h2 {
+   padding: 20px;
+   text-align: center;
+   margin: 0;
+   color: rgb(233, 94, 94);
+}
+
+/* Response options */
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+ul li {
+   font-size: 1.2rem;
+   margin: 1rem 0;
+} 
+
+ul li label {
+   cursor: pointer;
+}
+
+/* Button and right/wrong prints */
+
+button {
+   background-color: #03cae4;
+   color: #fff;
+   border: none;
+   display: block;
+   width: 90%;
+   cursor: pointer;
+   font-size: 1.2rem;
+   padding: 10px;
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+button:hover {
+   background-color: #04adc4;
+}
+
+#quiz-right {
+   color: green;
+}
+
+#quiz-wrong {
+   color: red;
+}
+
+/* Sidebar */
+
+.col-auto a {
+   color: rgb(233, 94, 94);
+   font-size: 20px;
+}
+
+.col-auto a:hover {
+   color: orange;
+   font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(255, 210, 168);
+   color: rgb(99, 99, 99);
+   text-align: center;
+}
